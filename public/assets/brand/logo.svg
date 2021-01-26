@@ -1,0 +1,35 @@
+<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <defs>
+  <filter id="svg_12_blur" x="-50%" y="-50%" width="200%" height="200%">
+   <feGaussianBlur stdDeviation="1.4"/>
+  </filter>
+  <filter id="svg_6_blur" x="-50%" y="-50%" width="200%" height="200%">
+   <feGaussianBlur stdDeviation="3.3"/>
+  </filter>
+  <filter id="svg_10_blur" x="-50%" y="-50%" width="200%" height="200%">
+   <feGaussianBlur stdDeviation="1.9"/>
+  </filter>
+  <linearGradient y2="0.70469" x2="0.24219" y1="0" x1="0" id="svg_15">
+   <stop offset="1" stop-color="#007fff"/>
+   <stop offset="1" stop-color="#ff8000"/>
+  </linearGradient>
+ </defs>
+ <g>
+  <rect x="-1" y="-1" width="102" height="102" id="canvas_background" fill="#ffffff00"/>
+  <g id="canvasGrid" display="none">
+   <rect id="svg_1" width="100%" height="100%" x="0" y="0" stroke-width="0" fill="url(#gridpattern)"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path fill="#fff" stroke="#000" stroke-width="1.5" opacity="0.5" d="m140.5,72.04999" id="svg_4"/>
+  <line fill="none" stroke-width="9" x1="69.76299" y1="74.44192" x2="51.56896" y2="23.54639" id="svg_10" stroke-linejoin="null" stroke-linecap="null" stroke="#007fff" opacity="0.25" filter="url(#svg_10_blur)"/>
+  <line fill="none" stroke-width="9" x1="67.07283" y1="65.96644" x2="47.65626" y2="65.96644" id="svg_11" stroke-linejoin="null" stroke-linecap="null" transform="rotate(27 57.364547729492216,65.96643829345702) " stroke="#ff7f00"/>
+  <line fill="none" stroke-width="9" x1="48.43284" y1="23.14179" x2="52.9659" y2="23.14179" id="svg_12" stroke-linejoin="null" stroke-linecap="null" filter="url(#svg_12_blur)" stroke="#007fff"/>
+  <line fill="none" stroke-width="9" x1="46.06218" y1="24.90965" x2="54.06957" y2="24.90965" id="svg_13" stroke-linejoin="null" stroke-linecap="null" stroke="#007fff"/>
+  <line fill="none" stroke-width="9" x1="68.04478" y1="72.89553" x2="49.85075" y2="22" id="svg_22" stroke-linejoin="null" stroke-linecap="null" stroke="#007fff"/>
+  <line fill="none" stroke-width="9" x1="31.56529" y1="77.48992" x2="51.59622" y2="30.09817" id="svg_6" stroke-linejoin="null" stroke-linecap="null" opacity="0.22" stroke="#007fff" transform="rotate(-3 41.58075332641578,53.79404449462902) " filter="url(#svg_6_blur)"/>
+  <path fill="none" fill-opacity="null" stroke="url(#svg_15)" stroke-width="9" stroke-linejoin="null" stroke-linecap="null" d="m31.17182,73.02257l19,-51" id="svg_21"/>
+ </g>
+</svg>

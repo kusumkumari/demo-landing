@@ -1,0 +1,31 @@
+.tr {
+  padding: 8px !important;
+  margin-top: 31px !important;
+}
+.pt {
+  margin: 0 auto;
+  display: block;
+  width: 30px;
+  border-radius: 500px;
+  height: 30px;
+  background: #263c5a;
+  border: none;
+  color: white;
+}
+@media (min-width: 992px) {
+  .pt {
+    display: none;
+  }
+}
+
+@media (max-width: 991px) {
+  .sub-s {
+    color: white;
+    margin-top: 6px !important;
+    font-size: 13px;
+    line-height: 2 !important;
+    padding: 7px !important;
+    width: 120px !important;
+    text-align: center !important;
+  }
+}

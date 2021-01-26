@@ -1,6 +1,6 @@
 import './App.css';
 import { Route, Switch } from 'react-router-dom'
-import Nav from './Nav'
+// import Nav from './Nav'
 import Home from './Pages/Home'
 import About from './Pages/About'
 import Contact from './Pages/Contact'
@@ -10,8 +10,7 @@ import PageNotFound from './Pages/404'
 function App() {
   return (
     <div className="App">
-      <h1> Router Management </h1>
-      <Nav />
+      {/* <Nav /> */}
       <Switch>
         <Route path='/about'>    <About /></Route>
         <Route path='/contact'>  <Contact /> </Route>
