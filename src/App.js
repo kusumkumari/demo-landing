@@ -1,6 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
-import { Route,Link,Switch} from 'react-router-dom'
+import { Route,Switch} from 'react-router-dom'
 import Nav from './Nav'
 import Home from './Pages/Home'
 import About from './Pages/About'
